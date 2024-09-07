@@ -1,14 +1,14 @@
 // Width of the element
 
-function getElementWidth(content, padding, border){
-    // deleting a unit (px)
-    let contentWidth = parseFloat(content);
-    let paddingWidth = parseFloat(padding);
-    let borderWidth = parseFloat(border);
+function getElementWidth(content, padding, border) {
+  // deleting a unit (px)
+  let contentWidth = parseFloat(content);
+  let paddingWidth = parseFloat(padding);
+  let borderWidth = parseFloat(border);
 
-    let totalWidth = contentWidth + 2 * paddingWidth + 2 * borderWidth;
+  let totalWidth = contentWidth + 2 * paddingWidth + 2 * borderWidth;
 
-    return totalWidth;
+  return totalWidth;
 }
 
 console.log("These are the results of Task 3:");

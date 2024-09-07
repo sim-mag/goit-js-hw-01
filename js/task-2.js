@@ -1,8 +1,8 @@
 // Order delivery
 
-function getShippingMessage(country, price, deliveryFee){
-    let totalPrice = price + deliveryFee;
-    return `Shipping to ${country} will cost ${totalPrice} credits`;
+function getShippingMessage(country, price, deliveryFee) {
+  let totalPrice = price + deliveryFee;
+  return `Shipping to ${country} will cost ${totalPrice} credits`;
 }
 
 console.log("These are the results of Task 2:");
